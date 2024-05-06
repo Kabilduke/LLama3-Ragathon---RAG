@@ -1,0 +1,8 @@
+pip install streamlit
+pip install PyPDF2==3.0.1
+
+pip install install langchain-nomic
+    - Ollama pull llama3
+
+pip --upgrade langchain-0.1.17 and langchain-community-0.0.36
+pip install tiktoken-0.6.0
