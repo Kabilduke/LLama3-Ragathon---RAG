@@ -44,7 +44,7 @@ if uploaded_file is not None:
     user_question = st.text_input("Ask a question:")
 
     if st.button("Get Answers"):
-        response = llm.generate(question = user_question, content = text_content)
+        response = llm.generate(messages =[], question = user_question, content = text_content)
         st.write("RAG response: ")
         st.write(response)
 
